@@ -13,8 +13,8 @@ Suggestions: If you don't want to code but have some awesome ideas, open up an i
 Documentation: If you see the need for some additional documentation, feel free to add some!
 
 ## Instructions
-Fork this repository 
-Clone the forked repository
-Add your contributions (code or documentation)
-Commit and push
+Fork this repository  
+Clone the forked repository  
+Add your contributions (code or documentation)  
+Commit and push  
 Wait for pull request to be merged
