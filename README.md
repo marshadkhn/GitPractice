@@ -3,5 +3,5 @@
 
 ## **What this repo provide**
 - **Practice git commands from beginner to advance**
-- **No one will juide you if you made any mistake**
+- **No one will judge you if you made any mistake**
 - **Spam the pull requests but learn git well**
