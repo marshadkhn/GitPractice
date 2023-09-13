@@ -1,2 +1,10 @@
 Hyy everyone 👋
 I am Ankush
+My second PR(update repo)-
+OFFTOPIC THOUGHT :
+if you never created or updated file with CLI in windows os before. let me help you out use below command. 
+command : echo text you want to add or append >> Name of you file
+Explaination : 
+echo - left side echo is used to display text in windows os. 
+>> - if you want to append text in file. 
+filename - at right side of >> you will put name of the file example abc.txt 
