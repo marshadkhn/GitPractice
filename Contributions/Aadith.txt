@@ -1,0 +1,8 @@
+Hi, I'm Aadith.
+
+Sorry, I am 2 days too late for this. But my exams are coming up.
+
+By the way, first time pushing to an upstream repository. 
+Till date, almost all of my github experience has been practice with my own repositories, or CS50's repositories.
+
+Gotta go fast and be consistent >>
