@@ -1,0 +1,11 @@
+Hi, I am Afreen.
+
+Just started with open source contributions.
+
+This is my first contribution in Binary Beasts Community.
+
+My First Issue : Updating that I Fork and Cloned repository for practice.
+
+Day 2 : 
+ Am updating this file
+Adding this file into github via Git.
