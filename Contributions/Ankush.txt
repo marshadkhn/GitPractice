@@ -65,6 +65,42 @@ git push origin main:namesometing
 git push --set-upstream origin  or  git push -u origin
 
 
+#Day4
+remote means you are refering to some url which is on the remote. 
+origin is the alias that you are giving it to it
+ex - git remote add [name] [the url you want to refer]
+
+>To check remote
+git remote -v
+
+>To add remote 
+git remote add origin https://github.com/your_username/your_repository.git
+
+>To remove remote
+git remote rm origin
+
+Diff - upstream refers to the original branch , remote refer to forked branch in your github
+
+#squash
+means to combine multiple commits into one
+
+>when code is not pushed only commited(n is no of commits)
+git rebase -i HEAD~n
+git push origin <branch> 
+
+>when code is pushed(n is no of commits) (you need to force the push)
+git rebase -i HEAD~n
+git push origin <branch> --force
+
+commit- Line1
+commit- Line2
+commit- Line3
+commit- Line4
+
+
+
+
+
 
 
 
