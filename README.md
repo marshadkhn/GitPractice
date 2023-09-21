@@ -8,6 +8,8 @@
 - **No one will judge you if you made any mistake**
 - **Spam the pull requests but learn git well**
 
+
+<!-- 
 ## Daily Tasks
 
 Each day, we will have a set of tasks to help you learn and practice git. Follow the tasks for each day to progress smoothly.
@@ -73,4 +75,4 @@ Each day, we will have a set of tasks to help you learn and practice git. Follow
 
   ```bash
   git status
-  ```
+  ``` -->
