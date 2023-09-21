@@ -1,0 +1,16 @@
+Hi, I'm Aadith.
+
+Sorry, I am 2 days too late for this. But my exams are coming up.
+
+By the way, first time pushing to an upstream repository. 
+Till date, almost all of my github experience has been practice with my own repositories, or CS50's repositories.
+
+Gotta go fast and be consistent >>
+
+Day 2 Update:
+
+I finally got the upstream branch to connect, turns out that I was in the directory above GitPractice, and was trying
+to add upstream from there. And also added a new repo like that. It took a bit of trial and error, before I finally
+understood what the issue was.
+
+This is my commit for Day 2 - Instructed to be pushed without raising an issue.

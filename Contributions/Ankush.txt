@@ -8,3 +8,99 @@ Explaination :
 echo - left side echo is used to display text in windows os. 
 >> - if you want to append text in file. 
 filename - at right side of >> you will put name of the file example abc.txt 
+
+#STASH
+
+Lets Take a Scenario
+Suppose you are a kid and you bought some choclates
+now your relative kid is coming and 
+you dont want to share with him or throw your choclate. 
+so you just hide the choclates somewhere so you can have it later.
+
+Stash works with the same logic 
+when you do not want to push the code to remote
+and you do not want to store the code on local machine either 
+so you can stash the code and use it later.
+
+>create stash or with unique name
+git stash  or git stash -m "name you want to give"
+
+>see all stash
+git stash list
+
+>get last stash from stash
+git stash apply
+
+>if you want to get a particular stash
+git stash apply stash@{put stashno from stash list}
+
+>if you want to delete top most stash
+git stash pop
+
+>if want to delete particular stash
+git stash drop stash@{put stashno from stash list}
+
+>clear stash 
+git stash clear
+
+>create branch with stash
+git stash branch "name of branch" stash@{put stashno from stash list}
+
+!!imp diff btw git stash apply and git stash pop 
+    git stash bring back the stashed code without removing it from the stash
+    get pop bring back the stashed code and remove it from the stash
+
+#REMOTE BRANCH
+
+>create a branch in local machine stage changes
+git branch nameofbranch   or   git branch -b nameofbranch 
+git add .                 or   git add filename
+>create commit Msg
+git commit -m "write some commit msg" 
+>create remote branch
+git push origin main
+>or if you want to rename it 
+git push origin main:namesometing
+>Or you want to creates a remote branch and sets it upstream of the current branch(basically connect the remote and local branches when pushing commits.)
+git push --set-upstream origin  or  git push -u origin
+
+
+#Day4
+remote means you are refering to some url which is on the remote. 
+origin is the alias that you are giving it to it
+ex - git remote add [name] [the url you want to refer]
+
+>To check remote
+git remote -v
+
+>To add remote 
+git remote add origin https://github.com/your_username/your_repository.git
+
+>To remove remote
+git remote rm origin
+
+Diff - upstream refers to the original branch , remote refer to forked branch in your github
+
+#squash
+means to combine multiple commits into one
+
+>when code is not pushed only commited(n is no of commits)
+git rebase -i HEAD~n
+git push origin <branch> 
+
+>when code is pushed(n is no of commits) (you need to force the push)
+git rebase -i HEAD~n
+git push origin <branch> --force
+
+commit- Line1
+commit- Line2
+commit- Line3
+commit- Line4
+
+
+
+
+
+
+
+
