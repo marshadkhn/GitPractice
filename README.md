@@ -1,20 +1,78 @@
+# Git Practice
 
-# practiceStuff
+**This repo is mainly created for those who are new to open-source and in the world of contributions**
 
-## Description
-Welcome to our project! This project helps you to practise how to work with git and gitHub.and get started with open-source contributions. If you have a github account and don't know which repository you want to send your first pull request to. Feel free to use this repository and contribute to it. because we understand that you don't want to mess up a real repository which has valuable code before practicing atleast one time.
+## **What this repo provide**
 
-## Contributing
-*We welcome any and all contributions! Here are some ways you can get started:
+- **Practice git commands from beginner to advance**
+- **No one will judge you if you made any mistake**
+- **Spam the pull requests but learn git well**
 
-*Report bugs: If you encounter any bugs, please let us know. Open up an issue and let us know the problem.
-Contribute code: If you are a developer and want to contribute, follow the instructions below to get started!
-Suggestions: If you don't want to code but have some awesome ideas, open up an issue explaining some updates or imporvements you would like to see!
-Documentation: If you see the need for some additional documentation, feel free to add some!
 
-## Instructions
-* Fork this repository 
-* Clone the forked repository
-* Add your contributions (code or documentation)
-* Commit and push
-* Wait for pull request to be merged
+<!-- 
+## Daily Tasks
+
+Each day, we will have a set of tasks to help you learn and practice git. Follow the tasks for each day to progress smoothly.
+
+### Day 1
+
+1. **Fork the repository.**
+2. **Clone the repository to your local system (ensure that you are cloning the forked repository).**  
+   To fork, run the following command:
+   ```bash
+   git clone https://github.com/<your_username>/GitPractice.git
+   ```
+   Replace **`<your_username>`** with your GitHub username before running the command in your terminal.
+3. **Create two issues and wait until they are assigned to you.**
+4. **Once assigned, complete the tasks as per the issue descriptions.**
+5. **Create a pull request (PR).**
+
+### Day 2
+
+#### Task 1: Update the Forked Repo by GUI and CLI
+
+- **GUI Update**:
+
+  - Use a Git GUI tool (e.g., GitHub Desktop) to update your forked repository.
+  - Locate the option to sync or update your repository.
+  - Follow the tool-specific steps to perform the update.
+
+- **CLI Update**:
+  - Open your terminal.
+  - Add the upstream repository as a remote (do this only once):
+    ```bash
+    git remote add upstream https://github.com/original-repo/original-repo.git
+    ```
+  - Fetch the latest changes from the upstream repository:
+    ```bash
+    git fetch upstream
+    ```
+  - Merge the changes from upstream into your local branch (e.g., main):
+    ```bash
+    git merge upstream/main
+    ```
+
+#### Task 2: Create a Branch by Your Name
+
+- Create a new Git branch with your name as the branch name.
+- Example branch name: `arshad`
+- This branch will be used for your future contributions.
+  ```bash
+  git checkout -b arshad
+  ```
+
+#### Task 3: Push the Branch Without Creating an Issue
+
+- Push the branch you created in Task 2 to your forked repository on GitHub.
+  ```bash
+  git push origin arshad
+  ```
+
+#### Task 4: Do Git Status and Write Your Commit Number When You Push the Code
+
+- Run git status to check the current status of your working directory.
+- When you push the branch created in Task 3, note down the commit number provided by Git.
+
+  ```bash
+  git status
+  ``` -->
